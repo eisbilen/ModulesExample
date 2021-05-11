@@ -1,9 +1,9 @@
-""" cvs_get_module.py
+""" csv_get_module.py
 This module displays the summary of the tabular data contained in a CSV file 
 """
 import pandas as pd
 
-print("cvs_get_module is loaded")
+print("csv_get_module is loaded")
 
 def display_file_location(path, filename):
     print("File Location: {}".format(path+filename))
